@@ -1,0 +1,34 @@
+.Button {
+    font-size:14px !important;
+    color: #379eff;
+    padding:5px 10px;
+    border:1px solid  #379eff;
+    border-radius:8px;
+    background-color: transparent;
+    outline: none;
+    cursor: pointer;
+    min-width:60px;
+}
+
+.Button:disabled {
+    color: #ccc;
+    border:1px solid #ccc;
+    cursor: not-allowed;
+}
+
+.green {
+    border:1px solid green;
+    background: #5C9210;
+    color:#fff;
+}
+
+.red {
+    border:1px solid red;
+    background: tomato;
+    color:#fff;
+}
+.active {
+    border:1px solid 379eff;
+    background:#379eff;
+    color:#fff;
+}

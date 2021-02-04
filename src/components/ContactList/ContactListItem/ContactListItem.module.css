@@ -1,0 +1,39 @@
+.item {
+    display:flex;
+    flex-direction:row;
+    border-bottom:1px solid #e5e5e5; 
+    align-items: center;
+    cursor:pointer;
+}
+.item:hover,
+.item:active {
+    background:#efefef;
+    color:#379eff;
+}
+.title {
+    font-weight:bold;
+}
+.item>div {
+    padding:20px;
+    min-width:200px;
+}
+.viewM,
+.viewL,
+.viewXL {
+    display:none;
+}
+@media (min-width: 400px) {
+    .viewM {
+        display:inline;
+    }
+}
+@media (min-width: 600px) {
+    .viewL {
+        display:inline;
+    }
+}
+@media (min-width: 900px) {
+    .viewXL {
+        display:inline;
+    }
+}
